@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Se connecter</title>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <div class="nav container">
+            <!--Logo-->
+            <a href="index.html" class="logo"><i class='bx bx-home'></i>Tragno</a>
+        <input type="checkbox" id="menu">
+        <label for="menu"><i class='bx bx-menu' id="menu-icon"></i></label>
+        
+        <!--Log in Button-->
+        <a href="s'inscrire.html" class="btn">S'inscrire</a>
+        </div>
+    </header>
+    <!--se connecter-->
+    <div class="se-connecter">
+        <div class="se-connecter-container">
+            <h2>Se connecter pour Continuer</h2>
+            <p>Se connecter avec votre données pour entrer <br> pendant votre enregistrement</p>
+            <!--Se connecter form-->
+            <form name="login">
+            <span>Entrer votre e-mail</span>
+            <input type="email" name="userid"/>
+            <span>Entrer votre mot de pass</span>
+            <input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="Se connecter" class="buttom"/>
+            <a href="#">Mot de pass oublier?</a>
+            </form>
+            <a href="s'inscrire.html" class="btn">S'incrire maintenant</a>
+        </div>
+        <div class="seconnecter-image">
+            <img src="image/bonjour.png" alt="">
+        </div>
+    </div>
+    <div class="return">
+    <a href="index.html" >Revenir a l'accueil</a>
+    </div>
+        <!--Footer-->
+        <section class="footer">
+            <div class="footer-container">
+                <h2>TRAGNO</h2>
+                <div class="footer-box">
+                    <h3>Liens Rapides</h3>
+                    <a href="#">Agences</a>
+                    <a href="#">Constructions</a>
+                    <a href="#">Taux</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Locations</h3>
+                    <a href="#">Tana</a>
+                    <a href="#">Antsirabe</a>
+                    <a href="#">Tamatave</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <a href="#">+261346739592</a>
+                    <a href="#">tragnomada@gmail.com</a>
+                    <div class="social">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <p>&#169; TRAGNOMada Tous Droits Reserver</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
